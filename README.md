@@ -14,31 +14,6 @@ The goal is to **demonstrate the imperative approach** for data pipelines, where
 
 ---
 
-## Project Structure
-
-imperative-data-processing-pipeline/
-│
-├── data/
-│ ├── raw/ # Original datasets (CSV/JSON/SQL)
-│ └── processed/ # Cleaned/transformed datasets saved here
-│
-├── src/
-│ ├── loader.py # Load CSV/JSON/SQL datasets imperatively
-│ ├── cleaning.py # Handle missing values (remove/fill/auto)
-│ ├── transform.py # Filter, add columns, aggregate data
-│ ├── analysis.py # Statistical summaries, correlations, dataset overview
-│ ├── visualize.py # Optional charts (bar, line, histogram)
-│ ├── output.py # Save cleaned datasets, reports, plots
-│ ├── utils.py # Helper functions (logging, type checking, validation)
-│ └── pipeline.py # Main pipeline controller (calls all steps sequentially)
-│
-├── tests/ # Unit tests for each module
-├── main.py # Entry point to run the pipeline
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-
-
 ## 🚀 Setup Guide
 
 ### 1. Clone the repository
